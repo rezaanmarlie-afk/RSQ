@@ -1,0 +1,10 @@
+{
+  "name": "RSQ Plumbing Services",
+  "short_name": "RSQ Plumbing",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#06101f",
+  "theme_color": "#06101f",
+  "description": "Quality plumbing. Lasting solutions.",
+  "icons": []
+}

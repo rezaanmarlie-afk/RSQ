@@ -1,0 +1,1 @@
+const C='rsq-v1',A=['./','index.html','styles.css','app.js','manifest.webmanifest','assets/hero.jpg','assets/rsq-plumbing-flyer.jpg','assets/favicon.svg'];self.addEventListener('install',e=>e.waitUntil(caches.open(C).then(c=>c.addAll(A))));self.addEventListener('fetch',e=>e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request))));
